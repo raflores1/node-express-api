@@ -1,0 +1,33 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add --dev eslint prettier eslint-config-airbnb@^15.0.1 eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y@^5.1.1
+
+PATH: 
+  /usr/local/heroku/bin:/Users/rafaelflores/.rvm/gems/ruby-2.2.2/bin:/Users/rafaelflores/.rvm/gems/ruby-2.2.2@global/bin:/Users/rafaelflores/.rvm/rubies/ruby-2.2.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/heroku/bin:/Users/rafaelflores/.rvm/gems/ruby-2.2.2/bin:/Users/rafaelflores/.rvm/gems/ruby-2.2.2@global/bin:/Users/rafaelflores/.rvm/rubies/ruby-2.2.2/bin:/Users/rafaelflores/Library/Android/sdk/tools:/Users/rafaelflores/Library/Android/sdk/platform-tools:/Users/rafaelflores/.rvm/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin:/Users/rafaelflores/Library/Android/sdk/tools:/Users/rafaelflores/Library/Android/sdk/platform-tools:/Users/rafaelflores/.rvm/bin:/Applications/Postgres.app/Contents/Versions/9.4/bin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  6.11.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "react-app-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at errnoException (dns.js:28:10)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
