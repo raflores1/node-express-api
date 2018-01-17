@@ -13,7 +13,7 @@ dotenv.config();
 const app = express();
 app.use(bodyParser.json());
 mongoose.Promise = Promise;
-mongoose.connect(process.env.MONGODB_URL, {useMongoClient: true});
+mongoose.connect(process.env.MONGODB_URL, { useMongoClient: true });
 
 
 app.use("/api/auth", auth)
